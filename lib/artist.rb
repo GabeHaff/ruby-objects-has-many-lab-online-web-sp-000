@@ -26,4 +26,7 @@ def self.song_count
   @@song_count
 end 
 
+def add_song_by_name(name)
+  song
+
 end #class end 
