@@ -29,7 +29,7 @@ end
 
 def add_post_by_title(title)
 posts = Post.new(title)
-@posts << post()
+@posts << post
 end 
   
 end #class end 
