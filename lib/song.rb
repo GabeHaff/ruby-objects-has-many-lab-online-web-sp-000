@@ -15,6 +15,8 @@ end
 #end 
 
 def artist_name
-@artist
+@artist.name 
+else 
+  @artist== nil
 end 
 end #class end 
