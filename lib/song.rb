@@ -15,6 +15,6 @@ def save
 end 
 
 def artist_name(artist, name)
-  @@all.artist.name
+  @artist_name = Artist.new 
 end 
 end #class end 
