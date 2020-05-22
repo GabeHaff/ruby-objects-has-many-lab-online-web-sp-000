@@ -6,5 +6,9 @@ class Author
     @name = name 
   end 
   
+  def posts
+  post.all.select{|post| song.artist == self}
+    end  
+    
   
 end 
