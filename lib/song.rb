@@ -11,7 +11,7 @@ def self.all #accesses @@all
 end 
 
 def save # pushes new songs into class variable/empty array of songs
-  @@all << self 
+  @@songs << self 
 end 
 
 def artist_name
