@@ -30,6 +30,7 @@ end
 def add_post_by_title(title)
 posts = Post.new(title)
 @posts << post
+post.author = self 
 end 
   
 end #class end 
