@@ -6,7 +6,9 @@ def initialize(name)
   @@all << self.new.all 
 end 
 
-self.all 
+def self.all 
 return @@all 
 end 
+
+
 end #class end 
