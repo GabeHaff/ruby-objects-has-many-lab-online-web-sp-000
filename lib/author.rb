@@ -30,7 +30,7 @@ end
 def add_post_by_title(title)
 add_post(Post.new(title))
 #@posts << post
-post.author = self 
+Post.author = self 
 @@post_count +=1 
 end 
 
