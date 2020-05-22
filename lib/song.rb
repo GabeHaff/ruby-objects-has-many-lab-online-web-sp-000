@@ -15,6 +15,6 @@ end
 #end 
 
 def artist_name
-@@all.select{|song| song.artist.name == self}
+song.artist.name 
 end 
 end #class end 
