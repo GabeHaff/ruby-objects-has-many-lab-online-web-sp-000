@@ -14,7 +14,7 @@ def save
   @@all << self 
 end 
 
-def artist_name(artist, name)
+def artist_name
   @artist_name = Artist.new 
 end 
 end #class end 
