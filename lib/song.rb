@@ -15,6 +15,6 @@ def save
 end 
 
 def artist_name
-  self.all.artist
+  
 end 
 end #class end 
