@@ -7,8 +7,9 @@ def initialize(name)
 @songs = []
 end 
 
-def artist=(name)
-artist.all.
+#def artist=(name)
+#artist.all.
+
 def songs
   Song.all.select{|song| song.artist == self}
     end  
