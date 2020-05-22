@@ -15,6 +15,6 @@ end
 #end 
 
 def artist_name
-song.artist.name 
+@artist
 end 
 end #class end 
