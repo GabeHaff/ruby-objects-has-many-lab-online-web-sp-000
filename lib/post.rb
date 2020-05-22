@@ -13,6 +13,6 @@ def self.all
   @@all 
 end 
 
-def 
+def author_name
 
 end #class end 
