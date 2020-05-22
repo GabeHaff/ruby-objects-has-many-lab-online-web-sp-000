@@ -19,4 +19,5 @@ if @artist == nil
   return nil 
 else @artist.name 
 end 
+end 
 end #class end 
