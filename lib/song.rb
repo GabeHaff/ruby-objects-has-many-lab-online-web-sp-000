@@ -14,5 +14,7 @@ def save
   @@all << self 
 end 
 
+def artist_name
+  
 
 end #class end 
