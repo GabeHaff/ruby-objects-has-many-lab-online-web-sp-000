@@ -16,7 +16,7 @@ def songs
   Song.all.select{|song| song.artist == self}
     end  
     
-def add_song(song)
+def add_song(name)
 @songs << song 
 artist.song == self 
 @@song_count += 1 
