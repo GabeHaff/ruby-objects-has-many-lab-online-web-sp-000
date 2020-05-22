@@ -14,7 +14,9 @@ def save # pushes new songs into class variable/empty array of songs
   @@all << self 
 end 
 
-def artist=(artist)
+def artist(artist)
+  @artist = artist
+end 
 
 def artist_name(artist)
   Song.all.select{|song| song.artist = self }
