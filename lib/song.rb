@@ -1,5 +1,5 @@
 class Song 
-  @@songs = [] #changed from @@all
+  @@all = [] #changed from @@all
   attr_accessor :name, :genre, :artist
 def initialize(name)
   @name = name 
@@ -7,14 +7,14 @@ def initialize(name)
 end 
 
 def self.all #accesses @@all 
-  @@songs 
+  @@all 
 end 
 
 def save # pushes new songs into class variable/empty array of songs
-  @@songs << self 
+  @@all << self 
 end 
 
 def artist_name
-self.all.select{|song| song.artist.name == self}
+@@all.select{|song| song.artist.name == self}
 end 
 end #class end 
