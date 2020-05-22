@@ -7,7 +7,7 @@ class Author
   end 
   
   def posts
-  post.all.select{|post| song.artist == self}
+  post.all.select{|post| post.author == self}
     end  
     
   
