@@ -31,7 +31,7 @@ def add_post_by_title(title)
 add_post(Post.new(title))
 #@posts << post
 #post.author = self 
-@@pos
+
 end 
 
   
