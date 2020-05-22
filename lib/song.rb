@@ -7,7 +7,7 @@ def initialize(name)
 end 
 
 def self.all 
-return @@all 
+  @@all 
 end 
 
 
