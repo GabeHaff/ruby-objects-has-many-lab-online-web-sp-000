@@ -14,7 +14,7 @@ def save # pushes new songs into class variable/empty array of songs
   @@all << self 
 end 
 
-def artist(artist)
+def artist
   @artist = artist
 end 
 
