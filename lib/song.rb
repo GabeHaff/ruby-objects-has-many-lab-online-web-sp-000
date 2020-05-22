@@ -10,9 +10,6 @@ def self.all #accesses @@all
   @@all 
 end 
 
-#def save ## pushes new songs into class variable/empty array of songs
- # @@all << self 
-#end 
 
 def artist_name
 if @artist == nil
@@ -20,4 +17,5 @@ if @artist == nil
 else @artist.name 
 end 
 end 
+
 end #class end 
