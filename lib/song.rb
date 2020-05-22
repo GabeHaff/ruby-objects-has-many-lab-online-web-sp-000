@@ -15,6 +15,7 @@ def save # pushes new songs into class variable/empty array of songs
 end 
 
 def artist_name
-  Song.all.artist 
+Song.all.select{|song| song.artist == self}
+
 end 
 end #class end 
