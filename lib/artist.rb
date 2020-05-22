@@ -7,5 +7,5 @@ def initialize(name)
 end 
 
 def songs(song)
-@song = song 
+
 end 
