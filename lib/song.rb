@@ -18,7 +18,7 @@ def artist(artist)
   @artist = artist
 end 
 
-def artist_name(artist)
+def artist_name
   Song.all.select{|song| song.artist = self }
 end 
 end #class end 
